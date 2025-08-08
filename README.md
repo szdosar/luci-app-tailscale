@@ -21,7 +21,7 @@ Tailscale is a zero config VPN for building secure networks.
 
   *2. get luci-app-tailscale source & building*
   ```shell
-  git clone https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
+  git clone https://github.com/szdosar/luci-app-tailscale package/luci-app-tailscale
   make menuconfig # choose LUCI -> Applications -> luci-app-tailscale
   make package/luci-app-tailscale/compile V=s # luci-app-tailscale
   ```
